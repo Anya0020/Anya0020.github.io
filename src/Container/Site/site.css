@@ -1,0 +1,67 @@
+.site{
+    padding: 25px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: 0.5px solid transparent;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.site-icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.site-icone i{
+    font-size: 53px;
+   color: white;
+}
+
+.site-icone a{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.phone{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    text-align: center;
+    margin-top: 20px;
+    border: 0.5px solid transparent;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.phone.open{
+    max-height: 200px;
+    opacity: 1;
+}
+
+.numbers p{
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+}
+
+.numbers button{
+    padding: 10px 25px;
+    margin-top: 10px;
+    font-size: 25px;
+    border: 0.5px solid transparent;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
